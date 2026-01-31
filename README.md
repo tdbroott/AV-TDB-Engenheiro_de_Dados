@@ -11,7 +11,7 @@ O pipeline foi desenhado seguindo a Arquitetura Medalhão, processando os dados 
 1.  **Configuração e Setup:** Definição de caminhos para armazenamento utilizando Databricks Volumes e limpeza de ambientes para re-execuções e testes do pipeline.
 2.  **Ingestão (Camada Bronze):**
     *   Leitura do arquivo fonte em formato XML (`all.xml`).
-    *   Transformação imediata dos dados brutos para o formato **Delta Lake**.
+    *   Transformação imediata dos dados brutos para o formato **Delta**.
     *   Adição de metadados de ingestão (data de processamento e arquivo de origem).
 
 O objetivo principal desta etapa inicial é converter o dado semi-estruturado (XML) para um formato otimizado (Delta), que permita consultas rápidas e manipulação nas etapas subsequentes (Silver e Gold).
