@@ -6,7 +6,7 @@ Este projeto consiste na implementação de um pipeline de dados utilizando **Da
 
 ##  Descrição da Solução
 
-O pipeline foi desenhado seguindo a **Arquitetura Medalhão, processando os dados em camadas para garantir qualidade e performance:
+O pipeline foi desenhado seguindo a Arquitetura Medalhão, processando os dados em camadas para garantir qualidade e performance:
 
 1.  **Configuração e Setup:** Definição de caminhos para armazenamento utilizando Databricks Volumes e limpeza de ambientes para re-execuções.
 2.  **Ingestão (Camada Bronze):**
